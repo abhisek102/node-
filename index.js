@@ -1,3 +1,9 @@
-// run `node index.js` in the terminal
+const arr= {
+  firstname='Abhisek',
+  lastname='Nanda',
+  age='22',
+  intrest='girls'
+};
 
-console.log(`Hello Node.js v${process.versions.node}!`);
+const datajson= JSON.stringify(arr);
+console.log(datajson);
